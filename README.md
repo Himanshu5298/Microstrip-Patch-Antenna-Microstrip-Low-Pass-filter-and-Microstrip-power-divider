@@ -1,6 +1,6 @@
 # Microstrip Patch Antenna 
 Objective: 
-To design and fabricate a linearly polarised rectangular/square microstrip patch antenna on a given FR-4 epoxy substrate of thickness 1.6 mm and 
+To design and simulate a linearly polarised rectangular/square microstrip patch antenna on a given FR-4 epoxy substrate of thickness 1.6 mm and 
 dielectric constant 4.4 at a frequency of 2.4 GHz.<br>
 Theory: 
 Microstrip patch antennas are a type of antenna where a metal patch mounted at a ground level with a di-electric material in-between. 
@@ -13,7 +13,7 @@ antenna is 79 degrees.
 
 # Microstrip Low Pass filter
 Objective:
-To design, fabricate and measure a stepped-impedance low-pass filter having a maximally flat response and cut-off frequency of 2.5 GHz with an attenuation of more than 20 dB at 4 GHz. 
+To design, simulate and measure a stepped-impedance low-pass filter having a maximally flat response and cut-off frequency of 2.5 GHz with an attenuation of more than 20 dB at 4 GHz. 
 The line impedance of filter is 50 Ω, highest line impedance is 120 Ω, and the lowest is 20 Ω.<br>
 Theory:
 Filter is a two-port device which passes microwave of certain frequencies I while rejecting or absorbing other frequencies.
@@ -26,3 +26,8 @@ proposed LPF by keeping the n (no. of the elements) at 5. If we somehow increase
 steepness in the curve of forward transmission or the frequency response of the LPF will be rectangular function but our device complexity will be much greater 
 and the compactness of the LPF will severely hampered.
 # Microstrip-power-divider
+Objective: 
+To design, simulate and measure an equal-split (3-dB) Wilkinson power divider for mobile communication operating at 915 MHz.<br>
+Theory:
+Power divider is passive microwave component used for power division. In power division, an input signal is divided into two (or more) output signals of lesser power. The divider may have three ports, four ports, or more, and may be (ideally) lossless. Power dividers usually provide in-phase output signals with an equal power division ratio (3 dB), but unequal power division ratios are also possible.<br>
+The reflection and transmission coefficients of the proposed equal split power divider are studied. There is almost equal power division at the all output ports and good isolation between the output ports is obtained at the required frequency. By changing the gap width of quarter wave sections, isolation between output ports can be achieved. Wilkinson power dividers are very robust devices, and different designs can achieve similar performance, particularly when constructed using simple microstrip fabrication techniques and operating at reasonable frequencies. 
